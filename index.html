@@ -4,149 +4,198 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lucia CV</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header style="text-align: center; margin-top: 10px">
+    <header>
+      <h1 id="page_name">My CV</h1>
       <nav>
-        <ul>
-          <li style="display: inline; margin: 0px 50px">
-            <a href="">About me</a>
+        <ul class="main_nav__links">
+          <li class="nav_links">
+            <a href="#section_2" class="nav-main_links">about</a>
           </li>
-          <li style="display: inline; margin: 0px 50px">
-            <a href="">Personal details</a>
+          <li class="nav_links">
+            <a href="#section_3" class="nav-main_links">education</a>
           </li>
-          <li style="display: inline; margin: 0px 50px">
-            <a href="">Education</a>
+          <li class="nav_links">
+            <a href="#section_4" class="nav-main_links">skills</a>
           </li>
-          <li style="display: inline; margin: 0px 50px">
-            <a href="">Professional experience</a>
-          </li>
-          <li style="display: inline; margin: 0px 100px">
-            <a href="">Skils</a>
+          <li class="nav_links">
+            <a href="#section_5" class="nav-main_links">experience</a>
           </li>
         </ul>
       </nav>
-      <hr />
-      <h1>Hi, I am Lucia</h1>
-      <h5>
-        <i><code>enthusiastic and dedicated IT student</code></i>
-      </h5>
-      <hr />
     </header>
+
     <main>
-      <section style="text-align: center; margin: 5% 10%">
-        <h3>ABOUT ME</h3>
-        <p>
-          As an IT student, I am constantly striving to learn and grow both
-          professionally and personally. A creative problem-solver, I am always
-          looking for innovative solutions to complex issues. My attention to
-          detail is one of my greatest strengths, as I am able to identify and
-          address even the smallest of issues. I am passionate about utilizing
-          technology to improve and streamline processes, and I am always
-          looking for new ways to improve my skills and knowledge
-        </p>
-        <figure>
-          <a href="./images/portrait.jpg" download="Luci">
-            <img src="./images/portrait.jpg" alt="Luci" width="300" />
-          </a>
-          <figcaption><code>Lucia Iastremschi</code></figcaption>
-        </figure>
+      <section id="section_1">
+        <div id="profile-picture">
+          <img
+            src="../assets/portrait.jpg"
+            alt="profile photo"
+            class="profile_picture"
+          />
+        </div>
+        <div class="introduction">
+          <p class="introduction_line1">hello, i am</p>
+          <h1>Lucia Iastremschi</h1>
+          <p class="introduction_line3">enthusiatic and dedicated IT student</p>
+        </div>
+        <div id="media-links">
+          <ul>
+            <li class="media-links_access">
+              <a href="https://github.com/Luciastremschi" target="_blank"
+                >GitHub</a
+              >
+            </li>
+            <li class="media-links_access">
+              <a
+                href="https://www.linkedin.com/in/lucia-iastremschi-2b7923277/"
+                target="_blank"
+                >Linkedln</a
+              >
+            </li>
+            <li class="media-links_access">
+              <a
+                href="https://www.facebook.com/lucia.iastremschi/"
+                target="_blank"
+                >facebook</a
+              >
+            </li>
+          </ul>
+        </div>
       </section>
-      <hr />
-      <section style="text-align: center; margin: 5% 10%">
-        <h3>PERSONAL DETAILS</h3>
-        <figure>
-          <img src="./images/mail png.png" alt="" width="50" />
-          <figcaption>lucica.iastremschi@gmail.com</figcaption>
-        </figure>
-        <figure>
-          <img src="./images/phone png.png" alt="" width="50" />
-          <figcaption>+(373) 60116410</figcaption>
-        </figure>
-        <figure>
-          <img src="./images/house png.png" alt="" width="50" />
-          <figcaption>Republic of Moldova, Chișinău</figcaption>
-        </figure>
-      </section>
-      <section style="margin: 5% 0%; background-color: rgb(214, 214, 214)">
-        <table border="1" width="100%" height="100">
-          <thead>
-            <tr>
-              <th colspan="2">EDUCATION</th>
-            </tr>
-          </thead>
-          <tbody style="text-align: center">
-            <tr>
-              <td width="50%">
-                Public Institution Theoretic Lyceum “Lucian Blaga” [2017-2020]
-              </td>
-              <td>
-                Academy of Economic Studies of Moldova, Faculty of Information
-                Technology and Economic Statistics[2020-2024]
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
-      <section>
-        <h3 style="text-align: center">PROFESSIONAL EXPERIENCE</h3>
-        <details>
-          <summary>Initiation practice maib [2022]</summary>
+      <section id="section_2">
+        <div class="about-text">
+          <h1 class="section__title">About</h1>
           <p>
-            <strong>
-              Retail Digital Channels Department (Digital Products Development)
-              Mentor- Alexandra Sidorenco</strong
-            >
+            As an IT student, I am constantly striving to learn and grow both
+            professionally and personally. A creative problem-solver, I am
+            always looking for innovative solutions to complex issues. My
+            attention to detail is one of my greatest strengths, as I am able to
+            identify and address even the smallest of issues. I am passionate
+            about utilizing technology to improve and streamline processes, and
+            I am always looking for new ways to improve my skills and knowledge.
           </p>
-          <h5>Responsibilities:</h5>
-          <p>
-            Testing the maib junior application, which is a mobile application,
-            intended for payment cards for children and teenagers aged between
-            7-17. Card holders have exclusive promotions and prizes, cashback up
-            to 15%.
-          </p>
-          <h5>Acquired skills:</h5>
-          <ol>
-            <li>
-              communication skills – the skills to listen, to dialogue and to
-              express yourself coherently in writing;
-            </li>
-            <li>
-              the ability to correctly analyze information and quickly make the
-              best decisions
-            </li>
-            <li>the ability to work well in a team;</li>
-            <li>
-              the ability to prioritize and complete important tasks on time
-            </li>
-            <li>
-              flexibility, the ability to quickly adapt to changes and new
-              contexts;
-            </li>
-            <li>technical skills;</li>
-          </ol>
-        </details>
-        <details>
-          <summary>Internship maib</summary>
-          <p>MIS Reporting Department</p>
-          <h5>Position:</h5>
-          <p>Digital analyst</p>
-        </details>
+          <div class="about__contacts">
+            <img src="../assets/mail icon.png" alt="mail icon" />
+            <p>lucica.iastremschi@gmail.com</p>
+            <img src="../assets/phone icon.png" alt="phone icon" class="push" />
+            <p>+(373) 60116410</p>
+          </div>
+        </div>
+        <div class="second-profile-photo">
+          <div class="container_second-profile-photo">
+            <img src="../assets/picture_section2.jpg" alt="" />
+          </div>
+          <div class="container_border-profile-photo"></div>
+        </div>
       </section>
-      <hr />
-      <section>
-        <h3>SKILLS</h3>
-        <ul>
-          <li>
-            Word/Excel/PowerPoin <meter min="0" max="5" value="4"></meter>
-          </li>
-          <li>HTML/CSS<meter min="0" max="5" value="2"></meter></li>
-          <li>C/C++<meter min="0" max="5" value="2"></meter></li>
-          <li>SQL<meter min="0" max="5" value="1"></meter></li>
-        </ul>
+      <section id="section_3">
+        <h1 class="section__title sections_name" style="color: white">
+          Education
+        </h1>
+        <div class="container_section-3__content">
+          <div class="section-3__content">
+            <p>
+              <span class="text_firstline"
+                >Public Institution Theoretic Lyceum “Lucian Blaga”</span
+              >Telenesti city
+            </p>
+            <p>2017-2020</p>
+          </div>
+          <div class="section-3__content">
+            <p>
+              <span class="text_firstline"
+                >Academy of Economic Studies of Moldova</span
+              >
+              Faculty of Information Technology and Economic Statistics
+            </p>
+            <p>2020-2024</p>
+          </div>
+        </div>
+      </section>
+      <section id="section_4">
+        <h1 class="section__title sections_name">Skills</h1>
+        <div class="container_section-4">
+          <div class="section_4-columns">
+            <h1 class="skills-type">Soft</h1>
+            <ul class="skills_list">
+              <li>Thinking outside the box</li>
+              <li>Time-management</li>
+              <li>Active listening</li>
+              <li>Teamwork/Colaboration</li>
+              <li>Creativity</li>
+              <li>Detail-oriented</li>
+            </ul>
+          </div>
+          <div class="section_4-columns">
+            <h1 class="skills-type">Technical</h1>
+            <ul class="skills_list">
+              <li class="technical-skills_items">
+                Word/Excel/PowerPoin <meter min="0" max="5" value="4"></meter>
+              </li>
+              <li class="technical-skills_items">
+                HTML/CSS<meter min="0" max="5" value="2"></meter>
+              </li>
+              <li class="technical-skills_items">
+                C/C++<meter min="0" max="5" value="2"></meter>
+              </li>
+              <li class="technical-skills_items">
+                SQL<meter min="0" max="5" value="1"></meter>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="section_5">
+        <h1 class="section__title sections_name">Professional experience</h1>
+        <div class="section_5_overlay">
+          <p>
+            <span class="text_firstline">Initiation practice maib</span> 2022
+          </p>
+        </div>
+        <div class="container-section_5">
+          <div class="text-container">
+            <h2 class="text-decoration-section_5">
+              <span class="text_firstline"
+                >Retail Digital Channels Department (Digital Products
+                Development)</span
+              >
+              Mentor- Alexandra Sidorenco
+            </h2>
+            <h3 class="space-section_5">Responsabilities:</h3>
+            <p>
+              Testing the maib junior application, which is a mobile
+              application, intended for payment cards for children and teenagers
+              aged between 7-17. Card holders have exclusive promotions and
+              prizes, cashback up to 15%.
+            </p>
+            <h3 class="space-section_5">Acquired skills:</h3>
+            <ul>
+              <li>
+                communication skills- the skills to listen, to dialogue and to
+                express yourself coherently in writing;
+              </li>
+              <li>
+                the ability to correctly analyze information and quickly make
+                the best decisions
+              </li>
+              <li>the ability to work well in a team;</li>
+              <li>
+                the ability to prioritize and complete important tasks on time
+              </li>
+              <li>
+                flexibility, the ability to quickly adapt to changes and new
+                contexts;
+              </li>
+              <li>technical skills</li>
+            </ul>
+          </div>
+        </div>
       </section>
     </main>
-    <footer style="text-align: center">All rights reserved 2023</footer>
+    <footer>All rights reserved 2023</footer>
   </body>
 </html>
